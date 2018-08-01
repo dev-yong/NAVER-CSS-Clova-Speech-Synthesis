@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WTh-wL-PeW">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="fcN-NC-HBz">
+            <objects>
+                <viewController id="WTh-wL-PeW" customClass="ViewController" customModule="NAVER_Clova_Speech_Synthesis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Q7-sd-Z34">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SuE-oV-lnl">
+                                <rect key="frame" x="172" y="378.5" width="30" height="30"/>
+                                <state key="normal" title="TTS"/>
+                                <connections>
+                                    <action selector="touchUpTTSButton:" destination="WTh-wL-PeW" eventType="touchUpInside" id="oty-DN-g8u"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sNA-6r-u7c">
+                                <rect key="frame" x="15" y="35" width="345" height="333.5"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Twy-l1-eES">
+                                <rect key="frame" x="12.5" y="408.5" width="349" height="31"/>
+                                <connections>
+                                    <action selector="valueChanged:" destination="WTh-wL-PeW" eventType="valueChanged" id="uHx-6b-7Cf"/>
+                                </connections>
+                            </slider>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A61-ry-how">
+                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Twy-l1-eES" firstAttribute="top" secondItem="SuE-oV-lnl" secondAttribute="bottom" id="1Y2-I9-ACk"/>
+                            <constraint firstItem="A61-ry-how" firstAttribute="trailing" secondItem="8Jt-SY-GV3" secondAttribute="trailing" id="M3z-f3-gXb"/>
+                            <constraint firstItem="8Jt-SY-GV3" firstAttribute="trailing" secondItem="sNA-6r-u7c" secondAttribute="trailing" constant="15" id="Sv3-C3-5CD"/>
+                            <constraint firstItem="sNA-6r-u7c" firstAttribute="top" secondItem="8Jt-SY-GV3" secondAttribute="top" constant="15" id="UGv-BZ-ECr"/>
+                            <constraint firstItem="A61-ry-how" firstAttribute="leading" secondItem="8Jt-SY-GV3" secondAttribute="leading" id="ZJe-H9-W6i"/>
+                            <constraint firstItem="Twy-l1-eES" firstAttribute="width" secondItem="sNA-6r-u7c" secondAttribute="width" id="Zpi-ZX-scU"/>
+                            <constraint firstItem="SuE-oV-lnl" firstAttribute="top" secondItem="sNA-6r-u7c" secondAttribute="bottom" constant="10" id="jIO-15-4gf"/>
+                            <constraint firstItem="SuE-oV-lnl" firstAttribute="centerX" secondItem="8Jt-SY-GV3" secondAttribute="centerX" id="lyE-61-HWb"/>
+                            <constraint firstItem="sNA-6r-u7c" firstAttribute="height" secondItem="6Q7-sd-Z34" secondAttribute="height" multiplier="0.5" id="mPO-OR-1k6"/>
+                            <constraint firstItem="sNA-6r-u7c" firstAttribute="leading" secondItem="8Jt-SY-GV3" secondAttribute="leading" constant="15" id="sIN-Pk-wgm"/>
+                            <constraint firstItem="Twy-l1-eES" firstAttribute="centerX" secondItem="sNA-6r-u7c" secondAttribute="centerX" id="vCN-V4-8XR"/>
+                            <constraint firstItem="A61-ry-how" firstAttribute="bottom" secondItem="8Jt-SY-GV3" secondAttribute="bottom" id="yX3-Fw-23S"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8Jt-SY-GV3"/>
+                    </view>
+                    <connections>
+                        <outlet property="picker" destination="A61-ry-how" id="SQt-V0-64X"/>
+                        <outlet property="slider" destination="Twy-l1-eES" id="7uh-KZ-YP5"/>
+                        <outlet property="textView" destination="sNA-6r-u7c" id="kPS-xn-HxV"/>
+                        <outlet property="ttsButton" destination="SuE-oV-lnl" id="Kyb-3S-YII"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdx-AB-bV3" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="31.934032983508249"/>
+        </scene>
+    </scenes>
+</document>

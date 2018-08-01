@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDD4E9D84F9CC204D692E701 /* Pods_NAVER_Clova_Speech_Synthesis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6849375C476ACCCFFF5D50 /* Pods_NAVER_Clova_Speech_Synthesis.framework */; };
+		FC6AB1822111B3F100B428CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AB1812111B3F100B428CC /* AppDelegate.swift */; };
+		FC6AB1842111B3F100B428CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AB1832111B3F100B428CC /* ViewController.swift */; };
+		FC6AB1872111B3F100B428CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6AB1852111B3F100B428CC /* Main.storyboard */; };
+		FC6AB1892111B3F200B428CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6AB1882111B3F200B428CC /* Assets.xcassets */; };
+		FC6AB18C2111B3F200B428CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6AB18A2111B3F200B428CC /* LaunchScreen.storyboard */; };
+		FC6AB1942111B47F00B428CC /* EnumCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6AB1932111B47F00B428CC /* EnumCollection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		338F229372D15B80DA654162 /* Pods-NAVER Clova Speech Synthesis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAVER Clova Speech Synthesis.release.xcconfig"; path = "Pods/Target Support Files/Pods-NAVER Clova Speech Synthesis/Pods-NAVER Clova Speech Synthesis.release.xcconfig"; sourceTree = "<group>"; };
+		3E6849375C476ACCCFFF5D50 /* Pods_NAVER_Clova_Speech_Synthesis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAVER_Clova_Speech_Synthesis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A73683342F6FC3E8D98316 /* Pods-NAVER Clova Speech Synthesis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAVER Clova Speech Synthesis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NAVER Clova Speech Synthesis/Pods-NAVER Clova Speech Synthesis.debug.xcconfig"; sourceTree = "<group>"; };
+		FC6AB17E2111B3F100B428CC /* NAVER Clova Speech Synthesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NAVER Clova Speech Synthesis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6AB1812111B3F100B428CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC6AB1832111B3F100B428CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC6AB1862111B3F100B428CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC6AB1882111B3F200B428CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC6AB18B2111B3F200B428CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC6AB18D2111B3F200B428CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6AB1932111B47F00B428CC /* EnumCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumCollection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6AB17B2111B3F100B428CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD4E9D84F9CC204D692E701 /* Pods_NAVER_Clova_Speech_Synthesis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13EB5A94F6960099F45148B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E6849375C476ACCCFFF5D50 /* Pods_NAVER_Clova_Speech_Synthesis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39D553CD20C0468C8214FAAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2A73683342F6FC3E8D98316 /* Pods-NAVER Clova Speech Synthesis.debug.xcconfig */,
+				338F229372D15B80DA654162 /* Pods-NAVER Clova Speech Synthesis.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC6AB1752111B3F100B428CC = {
+			isa = PBXGroup;
+			children = (
+				FC6AB1802111B3F100B428CC /* NAVER Clova Speech Synthesis */,
+				FC6AB17F2111B3F100B428CC /* Products */,
+				39D553CD20C0468C8214FAAC /* Pods */,
+				13EB5A94F6960099F45148B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6AB17F2111B3F100B428CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6AB17E2111B3F100B428CC /* NAVER Clova Speech Synthesis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6AB1802111B3F100B428CC /* NAVER Clova Speech Synthesis */ = {
+			isa = PBXGroup;
+			children = (
+				FC6AB1812111B3F100B428CC /* AppDelegate.swift */,
+				FC6AB1832111B3F100B428CC /* ViewController.swift */,
+				FC6AB1852111B3F100B428CC /* Main.storyboard */,
+				FC6AB1882111B3F200B428CC /* Assets.xcassets */,
+				FC6AB18A2111B3F200B428CC /* LaunchScreen.storyboard */,
+				FC6AB18D2111B3F200B428CC /* Info.plist */,
+				FC6AB1932111B47F00B428CC /* EnumCollection.swift */,
+			);
+			path = "NAVER Clova Speech Synthesis";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC6AB17D2111B3F100B428CC /* NAVER Clova Speech Synthesis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6AB1902111B3F200B428CC /* Build configuration list for PBXNativeTarget "NAVER Clova Speech Synthesis" */;
+			buildPhases = (
+				11C40D71258B6E6AB7D58A6D /* [CP] Check Pods Manifest.lock */,
+				FC6AB17A2111B3F100B428CC /* Sources */,
+				FC6AB17B2111B3F100B428CC /* Frameworks */,
+				FC6AB17C2111B3F100B428CC /* Resources */,
+				A6677DC4D57ADC0D3B08B154 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NAVER Clova Speech Synthesis";
+			productName = "NAVER Clova Speech Synthesis";
+			productReference = FC6AB17E2111B3F100B428CC /* NAVER Clova Speech Synthesis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6AB1762111B3F100B428CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "이광용";
+				TargetAttributes = {
+					FC6AB17D2111B3F100B428CC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FC6AB1792111B3F100B428CC /* Build configuration list for PBXProject "NAVER Clova Speech Synthesis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6AB1752111B3F100B428CC;
+			productRefGroup = FC6AB17F2111B3F100B428CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6AB17D2111B3F100B428CC /* NAVER Clova Speech Synthesis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6AB17C2111B3F100B428CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6AB18C2111B3F200B428CC /* LaunchScreen.storyboard in Resources */,
+				FC6AB1892111B3F200B428CC /* Assets.xcassets in Resources */,
+				FC6AB1872111B3F100B428CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11C40D71258B6E6AB7D58A6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NAVER Clova Speech Synthesis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6677DC4D57ADC0D3B08B154 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NAVER Clova Speech Synthesis/Pods-NAVER Clova Speech Synthesis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NAVER Clova Speech Synthesis/Pods-NAVER Clova Speech Synthesis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6AB17A2111B3F100B428CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6AB1842111B3F100B428CC /* ViewController.swift in Sources */,
+				FC6AB1822111B3F100B428CC /* AppDelegate.swift in Sources */,
+				FC6AB1942111B47F00B428CC /* EnumCollection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC6AB1852111B3F100B428CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6AB1862111B3F100B428CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC6AB18A2111B3F200B428CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6AB18B2111B3F200B428CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC6AB18E2111B3F200B428CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC6AB18F2111B3F200B428CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6AB1912111B3F200B428CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A73683342F6FC3E8D98316 /* Pods-NAVER Clova Speech Synthesis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPWV8KDDJE;
+				INFOPLIST_FILE = "NAVER Clova Speech Synthesis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeeGwangYong.NAVER-Clova-Speech-Synthesis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC6AB1922111B3F200B428CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338F229372D15B80DA654162 /* Pods-NAVER Clova Speech Synthesis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EPWV8KDDJE;
+				INFOPLIST_FILE = "NAVER Clova Speech Synthesis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LeeGwangYong.NAVER-Clova-Speech-Synthesis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6AB1792111B3F100B428CC /* Build configuration list for PBXProject "NAVER Clova Speech Synthesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6AB18E2111B3F200B428CC /* Debug */,
+				FC6AB18F2111B3F200B428CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6AB1902111B3F200B428CC /* Build configuration list for PBXNativeTarget "NAVER Clova Speech Synthesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6AB1912111B3F200B428CC /* Debug */,
+				FC6AB1922111B3F200B428CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC6AB1762111B3F100B428CC /* Project object */;
+}
