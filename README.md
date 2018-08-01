@@ -106,6 +106,8 @@ CSS를 좀더 사용해보기 위해 **속도 조절**, **언어 선택**, **성
 
 [![Thumbnail](https://img.youtube.com/vi/D-VcKwPoCSw/0.jpg)](https://www.youtube.com/watch?v=D-VcKwPoCSw)
 
+[https://leegwangyong.github.io/NAVER-Clova-Speech-Synthesis-Example](https://leegwangyong.github.io/NAVER-Clova-Speech-Synthesis-Example)
+
 ### 참고 사이트
 
 - [NAVER CLOUD PLATFORM 사용자 가이드](http://docs.ncloud.com/ko/)
