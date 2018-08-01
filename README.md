@@ -1,4 +1,6 @@
-# NAVER CSS(Clova Speech Synthesis) Example
+# NAVER CSS(Clova Speech Synthesis) Swift Example
+
+[![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 
 NAVER Clova Speech Synthesis의 Swift 버전 예제가 없어 직접 만들어보았습니다.
 
