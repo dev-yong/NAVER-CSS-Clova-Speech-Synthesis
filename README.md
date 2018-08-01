@@ -102,4 +102,15 @@ Header에는 1-2.에서 확인한 `Client ID` 와 `Client Secret` 을 넣어줍�
 
 CSS를 좀더 사용해보기 위해 **속도 조절**, **언어 선택**, **성별 선택**을 추가해보았습니다.
 
+### 영상
+
 [![Thumbnail](https://img.youtube.com/vi/D-VcKwPoCSw/0.jpg)](https://www.youtube.com/watch?v=D-VcKwPoCSw)
+
+### 참고 사이트
+
+- [NAVER CLOUD PLATFORM 사용자 가이드](http://docs.ncloud.com/ko/)
+-  [http://docs.ncloud.com/ko/naveropenapi_v2/naveropenapi-2-2.html](http://docs.ncloud.com/ko/naveropenapi_v2/naveropenapi-2-2.html)
+- [http://docs.ncloud.com/ko/naveropenapi_v2/naveropenapi-4-2.html](http://docs.ncloud.com/ko/naveropenapi_v2/naveropenapi-4-2.html)
+- [https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)
+- [https://developer.apple.com/documentation/uikit/uipickerview](https://developer.apple.com/documentation/uikit/uipickerview)
+- [https://developer.apple.com/documentation/uikit/uislider](https://developer.apple.com/documentation/uikit/uislider)
