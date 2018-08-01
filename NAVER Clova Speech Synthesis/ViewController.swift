@@ -109,7 +109,6 @@ class ViewController: UIViewController {
         Alamofire.request("https://naveropenapi.apigw.ntruss.com/voice/v1/tts",
                           method: HTTPMethod.post,
                           parameters: parameter,
-                          //encoding: URLEncoding.httpBody,
             headers: header).responseData { (response) in
                 switch response.result {
                 case .success :
