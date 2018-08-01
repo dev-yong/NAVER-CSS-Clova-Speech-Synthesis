@@ -12,15 +12,15 @@ AI Application에 관한 가이드는 [http://docs.ncloud.com/ko/naveropenapi_v2
 
 iOS Bundle ID를 Xcode프로젝트의 **Bundle ID**와 꼭 같게 해야합니다.
 
-![스크린샷 2018-08-01 오후 7.37.57](/Users/igwang-yong/Downloads/스크린샷 2018-08-01 오후 7.37.57.png)
+![스크린샷 2018-08-01 오후 7.37.57](https://ws3.sinaimg.cn/large/006tKfTcgy1ftuizcfilqj31kw0w5ds4.jpg)
 
-![스크린샷 2018-08-01 오후 8.59.11](/Users/igwang-yong/Downloads/스크린샷 2018-08-01 오후 8.59.11.png)
+![스크린샷 2018-08-01 오후 8.59.11](https://ws1.sinaimg.cn/large/006tKfTcgy1ftuizdieuaj31kw09jq6h.jpg)
 
 ##### 1-2. Application 정보 확인
 
 [ AI NAVER API ] > [ Application ] > [App 선택 ] > [ Application Key 관리 ] 를 누르면, 네트워크 요청시 필요한 ID와 키값이 있습니다.
 
-![스크린샷 2018-08-01 오후 8.38.57](/Users/igwang-yong/Downloads/스크린샷 2018-08-01 오후 8.38.57.png)
+![스크린샷 2018-08-01 오후 8.38.57](https://ws4.sinaimg.cn/large/006tKfTcgy1ftuizbm4ldj31kw0kvjx9.jpg)
 
 ```swift
 let header = [ "X-NCP-APIGW-API-KEY-ID": "[Client ID]",
@@ -41,7 +41,7 @@ pod 'Alamofire'
 
 네트워킹의 결과는 mp3 바이너리 데이터로 오기 때문에, 재생을 위하여 `AVFoundation` 을 import 시킵니다.
 
-![image-20180801211128968](/var/folders/q5/jd37stc93wnbg03qc25l_yc00000gp/T/abnerworks.Typora/image-20180801211128968.png)
+![image-20180801211128968](https://ws4.sinaimg.cn/large/006tKfTcgy1ftuize3g3pj31kw0hbgor.jpg)
 
 ```swift
 import Alamofire
@@ -52,7 +52,7 @@ import AVFoundation
 
 Header에는 1-2.에서 확인한 `Client ID` 와 `Client Secret` 을 넣어줍니다.
 
-![스크린샷 2018-08-01 오후 9.20.51](/Users/igwang-yong/Downloads/스크린샷 2018-08-01 오후 9.20.51.png)
+![스크린샷 2018-08-01 오후 9.20.51](https://ws1.sinaimg.cn/large/006tKfTcgy1ftuizanz5gj31kw09qn02.jpg)
 
 ```swift
 	func requestTTS(text: String) {
